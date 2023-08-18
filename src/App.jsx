@@ -13,7 +13,7 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path="/" element={ <Suspense fallback={<div>Loading...</div>}>
+        <Route index path="/" element={ <Suspense fallback={<div>Loading...</div>}>
         <Hero />
       </Suspense>} />
        <Route path="/cart" element={ <Suspense fallback={<div>Loading...</div>}>
