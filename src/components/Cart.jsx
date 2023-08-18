@@ -9,7 +9,7 @@ const navigate = useNavigate()
 const dispatch = useDispatch();
 const AddedCartdata = useSelector(state=>state?.Cart?.cartItems);
 const [Counter,setCounter]= useState(1);
-const [ShowPayment,setShowPayment]= useState(1);
+const [ShowPayment,setShowPayment]= useState(false);
 
 
 
